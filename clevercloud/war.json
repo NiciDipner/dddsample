@@ -7,7 +7,7 @@
     "container": "JETTY9",
     "war": [
          {
-            "file": "dddsample-2.0-SNAPSHOT.war"
+            "file": "target/dddsample-2.0-SNAPSHOT.war"
          }
       ],
      "goal": "clean package"
