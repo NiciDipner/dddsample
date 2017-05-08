@@ -1,0 +1,14 @@
+{
+   "deploy": {
+      "container": "JETTY9",
+      "war": [
+         {
+            "file": "dddsample-2.0-SNAPSHOT.war"
+         }
+      ]
+      "build": {
+        "type": "maven"
+        "goal": "package"
+      }
+   }
+}
